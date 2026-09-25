@@ -3560,3 +3560,28 @@ a:focus-visible, button:focus-visible {
     border-bottom:1px solid var(--line) !important;
   }
 }
+
+
+/* final fix: both creative direction cards in identical black style */
+.creative-prices .creative-price,
+.creative-prices .creative-price .creative-price__content {
+  background:#0b0b0b !important;
+  color:#ffffff !important;
+}
+.creative-prices .creative-price > span,
+.creative-prices .creative-price .creative-price__content > span {
+  color:rgba(255,255,255,.72) !important;
+}
+.creative-prices .creative-price p {
+  color:rgba(255,255,255,.72) !important;
+}
+.creative-prices .creative-price small,
+.creative-prices .creative-price__bottom span {
+  color:rgba(255,255,255,.58) !important;
+}
+.creative-prices .creative-price__bottom {
+  border-top:1px solid rgba(255,255,255,.16) !important;
+}
+.creative-prices .creative-price__bottom button {
+  color:#e2c06b !important;
+}
